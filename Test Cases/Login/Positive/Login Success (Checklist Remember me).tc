@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Success (Checklist Remember me)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>48be5cc0-eb84-49c4-9012-d5f5665bd55d</testCaseGuid>
+</TestCaseEntity>

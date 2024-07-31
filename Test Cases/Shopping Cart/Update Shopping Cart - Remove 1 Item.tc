@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Shopping Cart - Remove 1 Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea8edd41-22be-4df7-ba51-67acbf29dccd</testCaseGuid>
+</TestCaseEntity>

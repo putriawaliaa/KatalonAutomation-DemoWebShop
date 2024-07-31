@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Email a friend - 25 Virtual Gift Card - Without filling Friends email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>efbb3aad-2d1f-4313-986c-e02d847baacb</testCaseGuid>
+</TestCaseEntity>

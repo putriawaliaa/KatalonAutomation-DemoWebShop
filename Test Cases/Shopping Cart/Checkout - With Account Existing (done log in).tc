@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout - With Account Existing (done log in)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f72af6a8-c09a-4257-9c35-a30590cfbdfb</testCaseGuid>
+</TestCaseEntity>

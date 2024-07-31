@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add to wishlist - 25 Virtual Gift Card - Without Filling Sender Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9860d761-e019-470a-9824-0b05a9681fdb</testCaseGuid>
+</TestCaseEntity>

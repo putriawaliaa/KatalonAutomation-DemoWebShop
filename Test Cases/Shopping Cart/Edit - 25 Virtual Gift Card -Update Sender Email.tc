@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit - 25 Virtual Gift Card -Update Sender Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e386fe03-7bb1-4853-873c-a0eba7edf31a</testCaseGuid>
+</TestCaseEntity>

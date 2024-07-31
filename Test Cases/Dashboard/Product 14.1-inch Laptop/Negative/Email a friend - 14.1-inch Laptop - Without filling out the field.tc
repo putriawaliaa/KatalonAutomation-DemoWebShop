@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Email a friend - 14.1-inch Laptop - Without filling out the field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ac9ce77-42d5-4bdb-b187-de1f09edd9a7</testCaseGuid>
+</TestCaseEntity>

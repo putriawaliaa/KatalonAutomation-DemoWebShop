@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Gift Cards - wrong code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb3b1ba0-d496-4b38-850c-2a5bb521a0ef</testCaseGuid>
+</TestCaseEntity>
