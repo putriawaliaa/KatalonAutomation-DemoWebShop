@@ -23,7 +23,9 @@ WebUI.navigateToUrl('https://demowebshop.tricentis.com')
 
 WebUI.click(findTestObject('Login/Menu Log In'))
 
-WebUI.click(findTestObject('Login/Tombol Register'))
+WebUI.click(findTestObject('Login/Tombol Register - Login'))
+
+WebUI.click(findTestObject('Register/Tombol Register'))
 
 WebUI.verifyElementPresent(findTestObject('Register/Null First name is required'), 0)
 

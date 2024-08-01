@@ -27,9 +27,9 @@ WebUI.click(findTestObject('Register/Gender Female'))
 
 WebUI.setText(findTestObject('Register/textbox First Name'), 'Lee')
 
-WebUI.setText(findTestObject('Register/textbox Last Name'), 'Bada')
+WebUI.setText(findTestObject('Register/textbox Last Name'), 'jung')
 
-WebUI.setText(findTestObject('Register/textbox Email'), 'leebada@mailsac.com')
+WebUI.setText(findTestObject('Register/textbox Email'), 'junglee@mailsac.com')
 
 WebUI.setText(findTestObject('Register/textbox Password'), 'ibumuu')
 

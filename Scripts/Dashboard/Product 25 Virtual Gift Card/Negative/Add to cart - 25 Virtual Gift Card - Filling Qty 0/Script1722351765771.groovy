@@ -33,6 +33,8 @@ WebUI.setText(findTestObject('Dashboard/Detail Product/textbox sender email - Vi
 
 WebUI.setText(findTestObject('Dashboard/Detail Product/textbox message - Virtual Gift Card'), 'no message')
 
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox Qty'), '0')
+
 WebUI.click(findTestObject('Dashboard/Detail Product/Tombol Add to cart'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Dashboard/Detail Product/Null Bar Notification'), 0)

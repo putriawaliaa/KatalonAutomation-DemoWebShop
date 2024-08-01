@@ -19,25 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com')
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Login/Menu Log In'))
+WebUI.click(findTestObject('Dashboard/Featured products/Product - 25 Virtual Gift Card'))
 
-WebUI.click(findTestObject('Login/Tombol Register - Login'))
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox recipient name - Virtual Gift Card'), 'Bada')
 
-WebUI.click(findTestObject('Register/Gender Female'))
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox recipient email - Virtual Gift Card'), 'leebada@mailsac.com')
 
-WebUI.setText(findTestObject('Register/textbox First Name'), 'Lee')
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox sender name - Virtual Gift Card'), 'Bada')
 
-WebUI.setText(findTestObject('Register/textbox Last Name'), 'Bada')
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox sender email - Virtual Gift Card'), 'leebada@mailsac.com')
 
-WebUI.setText(findTestObject('Register/textbox Password'), 'ibumuu')
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox message - Virtual Gift Card'), 'no message')
 
-WebUI.setText(findTestObject('Register/textbox Confirm password'), 'ibumuu')
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox Qty'), '6')
 
-WebUI.click(findTestObject('Register/Tombol Register'))
+WebUI.click(findTestObject('Dashboard/Detail Product/Tombol Add to cart'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Register/Null Email is required'), 0)
-
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Dashboard/Detail Product/Null Bar Notification'), 0)
 

@@ -41,6 +41,16 @@ WebUI.click(findTestObject('Dashboard/Detail Product/Tombol Add to cart'), Failu
 
 WebUI.click(findTestObject('Shopping cart/Tombol Shopping Cart'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Shopping cart/Dropdown Select Country'))
+
+WebUI.sendKeys(findTestObject('Shopping cart/Dropdown Select Country'), 'Indonesia')
+
+WebUI.sendKeys(findTestObject('Shopping cart/Dropdown Select Country'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('Shopping cart/textbox Zip Postal Code'), '16454')
+
+WebUI.click(findTestObject('Shopping cart/Tombol Estimate Shipping'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Shopping cart/Tombol Checkout'))
 
 WebUI.verifyElementPresent(findTestObject('Shopping cart/Null Terms of service'), 0)

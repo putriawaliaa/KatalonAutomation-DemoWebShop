@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Register/textbox First Name'), 'Lee')
 
 WebUI.setText(findTestObject('Register/textbox Last Name'), 'Bada')
 
-WebUI.setText(findTestObject('Register/textbox Email'), 'leebadaa@mailsac.com')
+WebUI.setText(findTestObject('Register/textbox Email'), 'leebada12@mailsac.com')
 
 WebUI.setText(findTestObject('Register/textbox Password'), 'ibumuu')
 

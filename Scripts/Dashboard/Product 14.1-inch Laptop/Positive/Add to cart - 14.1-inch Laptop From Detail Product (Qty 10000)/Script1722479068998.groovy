@@ -19,25 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com')
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.click(findTestObject('Login/Menu Log In'))
+WebUI.click(findTestObject('Dashboard/Featured products/Product - 14.1-inch Laptop'))
 
-WebUI.click(findTestObject('Login/Tombol Register - Login'))
+WebUI.setText(findTestObject('Dashboard/Detail Product/textbox Qty'), '10000')
 
-WebUI.click(findTestObject('Register/Gender Female'))
+WebUI.click(findTestObject('Dashboard/Detail Product/Tombol Add to cart'))
 
-WebUI.setText(findTestObject('Register/textbox First Name'), 'Lee')
-
-WebUI.setText(findTestObject('Register/textbox Last Name'), 'Bada')
-
-WebUI.setText(findTestObject('Register/textbox Password'), 'ibumuu')
-
-WebUI.setText(findTestObject('Register/textbox Confirm password'), 'ibumuu')
-
-WebUI.click(findTestObject('Register/Tombol Register'))
-
-WebUI.verifyElementPresent(findTestObject('Register/Null Email is required'), 0)
-
-WebUI.closeBrowser()
+'Do not add products to the cart, display the product detail page'
+WebUI.verifyElementPresent(findTestObject('Dashboard/Detail Product/Null Bar Notification'), 0)
 

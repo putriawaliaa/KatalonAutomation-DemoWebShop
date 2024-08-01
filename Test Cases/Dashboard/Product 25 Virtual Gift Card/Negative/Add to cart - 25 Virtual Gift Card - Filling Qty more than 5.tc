@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add to cart - 25 Virtual Gift Card - Filling Qty more than 5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7a458a6-9467-444c-ba22-eb05a5a09eca</testCaseGuid>
+</TestCaseEntity>
